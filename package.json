@@ -1,0 +1,15 @@
+{
+  "name": "dennistech-hosting-site",
+  "version": "1.0.0",
+  "description": "A comprehensive hosting platform for all programming languages, web apps, and full-stack projects",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "npm install && cd server && npm install && cd ../client && npm install",
+    "server": "cd server && node index.js",
+    "client": "cd client && npm start",
+    "start": "node server/index.js"
+  },
+  "keywords": ["hosting", "deployment", "programming-languages"],
+  "author": "Dennis Tech",
+  "license": "MIT"
+}
